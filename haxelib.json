@@ -1,0 +1,17 @@
+{
+	"name": "flxsvgsprite",
+	"description": "A specialized FlxSprite that can render svg content in HaxeFlixel. Uses a fork of openf/svg as a dependency",
+	"url": "https://www.github.com/UncertainProd/FlxSVGSprite",
+	"contributors": [
+		"uncertainprod"
+	],
+	"version": "0.1.0",
+	"releasenote": "First Release",
+	"tags": [
+		"flixel",
+		"svg",
+		"openfl",
+		"addons"
+	],
+	"license": "MIT"
+}

@@ -8,3 +8,5 @@ It showcases basic instantiation, movement and rotation of the sprites, as well 
 
 
 #### All svg assets used in this demo are from [twemoji](https://github.com/twitter/twemoji) under Creative Commons
+
+![Showcase](./showcase.gif)

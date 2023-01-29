@@ -36,16 +36,16 @@ class FlxSVGSprite extends FlxSprite {
 	}
 
 	override function draw() {
+		prepareMatrix();
 		for (camera in cameras) {
 			if (!camera.visible || !camera.exists)
 				continue;
 
-			prepareMatrix(camera);
 			svgLoader.render(camera.canvas.graphics, _matrix);
 		}
 	}
 
-	function prepareMatrix(camera:FlxCamera) {
+	function prepareMatrix() {
 		_matrix.identity();
 		_matrix.scale(scale.x * displayWidth / svgLoader.data.width, scale.y * displayHeight / svgLoader.data.height);
 		_matrix.rotate(angle * FlxAngle.TO_RAD);

@@ -41,7 +41,7 @@ class FlxSVGSprite extends FlxSprite {
 			if (!camera.visible || !camera.exists)
 				continue;
 
-			svgLoader.render(camera.canvas.graphics, _matrix);
+			svgLoader.render(camera.canvas.graphics, 0, 0, -1, -1, _matrix);
 		}
 	}
 

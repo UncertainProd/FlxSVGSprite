@@ -1,0 +1,6 @@
+# For vscode to not show errors when viewing this lib (discovered this thanks to @sayofthelor)
+-lib lime
+-lib flixel
+-lib flixel-addons
+-lib openfl
+-lib svg

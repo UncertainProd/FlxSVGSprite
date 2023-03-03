@@ -3,7 +3,6 @@ package;
 import flixel.FlxG;
 import flixel.FlxState;
 import flixel.addons.display.FlxSVGSprite;
-import flixel.math.FlxRandom;
 import openfl.Assets;
 
 using StringTools;
